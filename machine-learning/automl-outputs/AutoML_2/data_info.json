@@ -1,0 +1,66 @@
+{
+    "columns": [
+        "UsedProperty",
+        "Property Size Description",
+        "Year",
+        "Month",
+        "Town",
+        "Apartment",
+        "Neighbourhood",
+        "Eircode",
+        "Latitude",
+        "Longitude",
+        "DistanceIFSC",
+        "DistanceSchool",
+        "DistancePark",
+        "DistanceSecSchool"
+    ],
+    "rows": 2226,
+    "cols": 14,
+    "target_is_numeric": true,
+    "columns_info": {
+        "UsedProperty": [],
+        "Property Size Description": [
+            "scale"
+        ],
+        "Year": [
+            "scale"
+        ],
+        "Month": [
+            "scale"
+        ],
+        "Town": [
+            "scale"
+        ],
+        "Apartment": [],
+        "Neighbourhood": [
+            "scale"
+        ],
+        "Eircode": [
+            "scale"
+        ],
+        "Latitude": [
+            "scale"
+        ],
+        "Longitude": [
+            "scale"
+        ],
+        "DistanceIFSC": [
+            "scale"
+        ],
+        "DistanceSchool": [
+            "scale"
+        ],
+        "DistancePark": [
+            "scale"
+        ],
+        "DistanceSecSchool": [
+            "scale"
+        ]
+    },
+    "target_info": [
+        "scale"
+    ],
+    "n_features": 14,
+    "is_sample_weighted": false
+}

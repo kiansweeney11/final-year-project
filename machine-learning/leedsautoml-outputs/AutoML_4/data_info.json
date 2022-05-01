@@ -1,0 +1,70 @@
+{
+    "columns": [
+        "Postcode",
+        "Add2",
+        "Add3",
+        "District",
+        "County",
+        "Month",
+        "Year",
+        "Property Type_D",
+        "Property Type_F",
+        "Property Type_O",
+        "Property Type_S",
+        "Property Type_T",
+        "Old/New_N",
+        "Old/New_Y",
+        "Duration_F",
+        "Duration_L",
+        "PPDCategory Type_A",
+        "PPDCategory Type_B"
+    ],
+    "rows": 14022,
+    "cols": 18,
+    "target_is_numeric": true,
+    "columns_info": {
+        "Postcode": [
+            "scale"
+        ],
+        "Add2": [
+            "scale"
+        ],
+        "Add3": [
+            "scale"
+        ],
+        "District": [
+            "scale"
+        ],
+        "County": [
+            "scale"
+        ],
+        "Month": [
+            "scale"
+        ],
+        "Year": [
+            "scale"
+        ],
+        "Property Type_D": [],
+        "Property Type_F": [],
+        "Property Type_O": [],
+        "Property Type_S": [],
+        "Property Type_T": [],
+        "Old/New_N": [
+            "scale"
+        ],
+        "Old/New_Y": [],
+        "Duration_F": [
+            "scale"
+        ],
+        "Duration_L": [],
+        "PPDCategory Type_A": [
+            "scale"
+        ],
+        "PPDCategory Type_B": []
+    },
+    "target_info": [
+        "scale"
+    ],
+    "n_features": 18,
+    "is_sample_weighted": false
+}

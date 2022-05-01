@@ -1,0 +1,15 @@
+feature,shap_importance
+Neighbourhood,0.52703434
+UsedProperty,0.067029744
+Eircode,0.038575158
+Month,0.035261896
+Town,0.032959275
+Longitude,0.031261373
+Latitude,0.03080761
+DistanceSchool,0.024308225
+Year,0.023520537
+DistancePark,0.020198029
+DistanceSecSchool,0.01846119
+DistanceIFSC,0.012724756
+Property Size Description,0.0121328775
+Apartment,0.009792412

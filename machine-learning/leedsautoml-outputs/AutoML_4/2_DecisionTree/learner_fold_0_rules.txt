@@ -1,0 +1,16 @@
+if (Add2 <= 204335.227) and (Add2 > 142173.703) and (Property Type_D <= 0.5) then response: 11.914 | based on 3,035 samples
+
+if (Add2 > 204335.227) and (Add2 <= 353594.234) and (Property Type_D <= 0.5) then response: 12.199 | based on 2,813 samples
+
+if (Add2 > 204335.227) and (Add2 <= 353594.234) and (Property Type_D > 0.5) then response: 12.601 | based on 1,500 samples
+
+if (Add2 <= 204335.227) and (Add2 <= 142173.703) and (Add2 > 101571.754) then response: 11.621 | based on 1,383 samples
+
+if (Add2 > 204335.227) and (Add2 > 353594.234) and (Add2 <= 559089.031) then response: 12.846 | based on 846 samples
+
+if (Add2 <= 204335.227) and (Add2 > 142173.703) and (Property Type_D > 0.5) then response: 12.328 | based on 425 samples
+
+if (Add2 <= 204335.227) and (Add2 <= 142173.703) and (Add2 <= 101571.754) then response: 11.277 | based on 333 samples
+
+if (Add2 > 204335.227) and (Add2 > 353594.234) and (Add2 > 559089.031) then response: 13.361 | based on 181 samples
+

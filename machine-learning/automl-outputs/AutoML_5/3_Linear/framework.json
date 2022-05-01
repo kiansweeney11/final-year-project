@@ -1,0 +1,244 @@
+{
+    "uid": "1fc5364d-13c0-4885-8d27-b3865bf8fc59",
+    "name": "3_Linear",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        0.4955104558325196,
+                        0.4494468095490544,
+                        0.8435126830496453,
+                        3.485016081214315,
+                        203521.52409316672,
+                        241236.76405006598,
+                        151969.62606425534,
+                        0.06791397631579174,
+                        0.09352593849337273,
+                        3.8116873461852068,
+                        0.35503160004760315,
+                        2.8708736014196177,
+                        0.7011986540686522
+                    ],
+                    "mean": [
+                        0.5668534827862289,
+                        1.1489191353082466,
+                        2015.8366693354683,
+                        6.744595676541233,
+                        440506.0629037705,
+                        439620.28903122497,
+                        438910.5695532798,
+                        53.363104050360285,
+                        -6.241729709874494,
+                        9.133852208363503,
+                        0.6585738963445844,
+                        2.882831113210591,
+                        0.8890168474232782
+                    ],
+                    "var": [
+                        0.24553061183935138,
+                        0.20200243461382397,
+                        0.7115136464656113,
+                        12.145337086322382,
+                        41421010769.20544,
+                        58195176329.347206,
+                        23094767246.109592,
+                        0.004612308179021921,
+                        0.00874710117106614,
+                        14.528960425068423,
+                        0.12604743703236124,
+                        8.241915235328046,
+                        0.49167955246768935
+                    ],
+                    "n_samples_seen": 1249,
+                    "n_features_in": 13,
+                    "columns": [
+                        "UsedProperty",
+                        "Property Size Description",
+                        "Year",
+                        "Month",
+                        "Town",
+                        "Neighbourhood",
+                        "Eircode",
+                        "Latitude",
+                        "Longitude",
+                        "DistanceIFSC",
+                        "DistanceSchool",
+                        "DistancePark",
+                        "DistanceSecSchool"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.565438738642953
+                ],
+                "mean": [
+                    12.835852142357114
+                ],
+                "var": [
+                    0.3197209671581337
+                ],
+                "n_samples_seen": 1249,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "UsedProperty": [
+                        "scale_normal"
+                    ],
+                    "Property Size Description": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Month": [
+                        "scale_normal"
+                    ],
+                    "Town": [
+                        "scale_normal"
+                    ],
+                    "Neighbourhood": [
+                        "scale_normal"
+                    ],
+                    "Eircode": [
+                        "scale_normal"
+                    ],
+                    "Latitude": [
+                        "scale_normal"
+                    ],
+                    "Longitude": [
+                        "scale_normal"
+                    ],
+                    "DistanceIFSC": [
+                        "scale_normal"
+                    ],
+                    "DistanceSchool": [
+                        "scale_normal"
+                    ],
+                    "DistancePark": [
+                        "scale_normal"
+                    ],
+                    "DistanceSecSchool": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "0.24.0",
+            "algorithm_name": "Linear Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "ef5f527d-5017-4c37-850a-dd21d20ec228",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "UsedProperty": [
+                    "scale_normal"
+                ],
+                "Property Size Description": [
+                    "scale_normal"
+                ],
+                "Year": [
+                    "scale_normal"
+                ],
+                "Month": [
+                    "scale_normal"
+                ],
+                "Town": [
+                    "scale_normal"
+                ],
+                "Neighbourhood": [
+                    "scale_normal"
+                ],
+                "Eircode": [
+                    "scale_normal"
+                ],
+                "Latitude": [
+                    "scale_normal"
+                ],
+                "Longitude": [
+                    "scale_normal"
+                ],
+                "DistanceIFSC": [
+                    "scale_normal"
+                ],
+                "DistanceSchool": [
+                    "scale_normal"
+                ],
+                "DistancePark": [
+                    "scale_normal"
+                ],
+                "DistanceSecSchool": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "X_path": "AutoML_5\\X.data",
+            "y_path": "AutoML_5\\y.data",
+            "results_path": "AutoML_5"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "3_Linear",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "3_Linear\\learner_fold_0.linear"
+    ],
+    "predictions_fname": "3_Linear\\predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": 0.35590334783110017,
+    "train_time": 3.6302332878112793,
+    "is_stacked": false
+}

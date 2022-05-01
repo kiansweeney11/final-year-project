@@ -1,0 +1,19 @@
+feature,shap_importance
+Add2,0.3771957
+Property Type_D,0.23254794
+Add3,0.14591677
+Year,0.05844286
+Postcode,0.054546606
+PPDCategory Type_A,0.05146222
+Property Type_F,0.04769616
+Duration_F,0.047092605
+Month,0.03554729
+Old/New_N,0.03435548
+Property Type_S,0.03306213
+Property Type_O,0.025543714
+Property Type_T,0.02163059
+District,0.007032355
+County,0.0021591876
+Old/New_Y,0.0
+Duration_L,0.0
+PPDCategory Type_B,0.0

@@ -1,0 +1,16 @@
+if (Neighbourhood > 336472.0) and (Neighbourhood <= 586876.0) and (Neighbourhood <= 412200.5) then response: 12.804 | based on 1,028 samples
+
+if (Neighbourhood > 336472.0) and (Neighbourhood <= 586876.0) and (Neighbourhood > 412200.5) then response: 13.021 | based on 946 samples
+
+if (Neighbourhood <= 336472.0) and (Neighbourhood <= 255236.5) and (Neighbourhood > 181297.0) then response: 12.213 | based on 496 samples
+
+if (Neighbourhood > 336472.0) and (Neighbourhood > 586876.0) and (Neighbourhood <= 871569.5) then response: 13.389 | based on 341 samples
+
+if (Neighbourhood <= 336472.0) and (Neighbourhood > 255236.5) and (Year > 2017.5) then response: 12.67 | based on 267 samples
+
+if (Neighbourhood <= 336472.0) and (Neighbourhood > 255236.5) and (Year <= 2017.5) then response: 12.449 | based on 167 samples
+
+if (Neighbourhood > 336472.0) and (Neighbourhood > 586876.0) and (Neighbourhood > 871569.5) then response: 13.864 | based on 144 samples
+
+if (Neighbourhood <= 336472.0) and (Neighbourhood <= 255236.5) and (Neighbourhood <= 181297.0) then response: 11.833 | based on 44 samples
+

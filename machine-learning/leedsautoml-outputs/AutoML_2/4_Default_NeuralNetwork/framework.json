@@ -1,0 +1,219 @@
+{
+    "uid": "adc38718-be44-4cea-887c-be4a7fd89b83",
+    "name": "4_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        61372.72856850818,
+                        110949.77581956568,
+                        78140.1282338526,
+                        20482.377326957096,
+                        7552.430606804303,
+                        3.34499013304861,
+                        0.7104601789984102,
+                        0.33795674378817353,
+                        0.3268808714403648,
+                        0.32363828016178553
+                    ],
+                    "mean": [
+                        231281.48991303943,
+                        232201.99369997182,
+                        230697.4397844723,
+                        232401.54859266916,
+                        232797.02512608812,
+                        6.833009304263297,
+                        2017.9938897375364,
+                        0.8684904874323011,
+                        0.8783502291348424,
+                        0.8811276211637272
+                    ],
+                    "var": [
+                        3766611811.94378,
+                        12309852754.411882,
+                        6105879640.40293,
+                        419527780.96384615,
+                        57039208.070594415,
+                        11.188958990192559,
+                        0.504753665942453,
+                        0.11421476067190517,
+                        0.1068511041136123,
+                        0.1047417363860784
+                    ],
+                    "n_samples_seen": 14402,
+                    "n_features_in": 10,
+                    "columns": [
+                        "Postcode",
+                        "Add2",
+                        "Add3",
+                        "District",
+                        "County",
+                        "Month",
+                        "Year",
+                        "Old/New_N",
+                        "Duration_F",
+                        "PPDCategory Type_A"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.5941844711865234
+                ],
+                "mean": [
+                    12.206172331632622
+                ],
+                "var": [
+                    0.35305518579920847
+                ],
+                "n_samples_seen": 14402,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "Postcode": [
+                        "scale_normal"
+                    ],
+                    "Add2": [
+                        "scale_normal"
+                    ],
+                    "Add3": [
+                        "scale_normal"
+                    ],
+                    "District": [
+                        "scale_normal"
+                    ],
+                    "County": [
+                        "scale_normal"
+                    ],
+                    "Month": [
+                        "scale_normal"
+                    ],
+                    "Year": [
+                        "scale_normal"
+                    ],
+                    "Old/New_N": [
+                        "scale_normal"
+                    ],
+                    "Duration_F": [
+                        "scale_normal"
+                    ],
+                    "PPDCategory Type_A": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "fad1a4a9-a5a6-42ba-a521-4fefc14ac4a6",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 4,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Postcode": [
+                    "scale_normal"
+                ],
+                "Add2": [
+                    "scale_normal"
+                ],
+                "Add3": [
+                    "scale_normal"
+                ],
+                "District": [
+                    "scale_normal"
+                ],
+                "County": [
+                    "scale_normal"
+                ],
+                "Month": [
+                    "scale_normal"
+                ],
+                "Year": [
+                    "scale_normal"
+                ],
+                "Old/New_N": [
+                    "scale_normal"
+                ],
+                "Duration_F": [
+                    "scale_normal"
+                ],
+                "PPDCategory Type_A": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "X_path": "AutoML_2\\X.data",
+            "y_path": "AutoML_2\\y.data",
+            "results_path": "AutoML_2"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 4,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 2,
+        "name": "4_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 60
+    },
+    "saved": [
+        "4_Default_NeuralNetwork\\learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "4_Default_NeuralNetwork\\predictions_validation.csv",
+    "metric_name": "rmse",
+    "final_loss": 0.3802703786213179,
+    "train_time": 1.743814468383789,
+    "is_stacked": false
+}
