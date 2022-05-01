@@ -1,9 +1,4 @@
-# CA4021 Repo - Kian Sweeney / 18306226
-
-## Shortcuts
-
-- The project dashboard is [here](https://projects.computing.dcu.ie/project.html?module=ca4021).
-- Project proposal can be found [here](https://gitlab.computing.dcu.ie/sweenk27/2022-ca4021-sweenk27/-/blob/master/docs/proposal_project.pdf)
+# CA4021 Repo - Kian Sweeney
 
 ## Project Outline
 
